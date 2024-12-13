@@ -1,14 +1,14 @@
 let nomeHeroi = "Davizera"
 let nivelHeroi = 23233434
-
+let nivel
 console.log("Olá " + nomeHeroi)
 
 if(nivelHeroi <= 1000){
-    console.log("Você esta no rank  Ferro")
+    nivel = "Ferro"
 }else if(nivelHeroi >= 1001 && nivelHeroi <= 2000){
-    console.log("Você esta no rank Bronze")
+    nivel = "Bronze"
 }else if(nivelHeroi >= 2001 && nivelHeroi <= 5000){
-    console.log("Você esta no rank Prata")
+    nivel = "Prata"
 }else if(nivelHeroi >= 5001 && nivelHeroi <=7000){
     console.log("Você esta no rank Ouro")
 }else if(nivelHeroi >= 7001 && nivelHeroi <= 8000){
